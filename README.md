@@ -1,1 +1,3 @@
-# CSE100Assignment2
+# CSE 100: Advanced Data Structures Assignment 2
+
+Project Overview: The goal of this assignment was to implement a Huffman Code Tree which contains functions to build a tree, encode data, decode data and delete all nodes from the tree. Also there are files that manage bit-wise input/output from files. The input stream file contains functions to fill buffer with a byte and readBit allows you to read bit by bit. The output stream file contains functions to flush data to output byte by byte and writeBit to write individual bits to a buffer. There is a program called compress.cpp that allows you to compress a given input file, outputs leaf count, frequency header, and encoded data to output file. Similarly, there is a program called uncompress.cpp that allows you to uncompress a given input file, outputs decoded bytes to create original encoded file.
